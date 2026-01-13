@@ -46,7 +46,7 @@ export default function AboutPage() {
       <section className="relative bg-slate-900 py-24">
         <div className="absolute inset-0 overflow-hidden">
           <Image
-            src="https://images.pexels.com/photos/14044466/pexels-photo-14044466.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="/images/busBG.jpg"
             alt="School bus fleet"
             fill
             className="object-cover opacity-20"
@@ -100,7 +100,7 @@ export default function AboutPage() {
             <FadeIn animation="slide-in-left">
               <div className="relative h-96 overflow-hidden rounded-lg lg:h-[500px]">
                 <Image
-                  src="https://images.pexels.com/photos/4452019/pexels-photo-4452019.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/images/R-1.jpg"
                   alt="School bus on the road"
                   fill
                   className="object-cover"

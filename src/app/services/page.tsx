@@ -23,7 +23,7 @@ const services = [
       'Real-time GPS tracking (AVL)',
       'Trained monitors for students needing assistance',
     ],
-    image: 'https://images.pexels.com/photos/14044466/pexels-photo-14044466.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/OIP.jpg',
   },
   {
     id: 'elderly',
@@ -38,7 +38,7 @@ const services = [
       'Social activity transportation',
       'Customized solutions for individual needs',
     ],
-    image: 'https://images.pexels.com/photos/4452019/pexels-photo-4452019.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/R-1.jpg',
   },
   {
     id: 'medical',
@@ -53,7 +53,7 @@ const services = [
       'On-site vehicle maintenance facility',
       'Professional driver training programs',
     ],
-    image: 'https://images.pexels.com/photos/1386484/pexels-photo-1386484.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/R-2.jpg',
   },
   {
     id: 'charter',
@@ -68,7 +68,7 @@ const services = [
       'Field trips and athletic events',
       'Corporate and group outings',
     ],
-    image: 'https://images.pexels.com/photos/14044466/pexels-photo-14044466.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/R.jpg',
   },
   {
     id: 'consulting',
@@ -83,7 +83,7 @@ const services = [
       'Technology implementation guidance',
       'Budget optimization strategies',
     ],
-    image: 'https://images.pexels.com/photos/4452019/pexels-photo-4452019.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/busBG.jpg',
   },
 ];
 
@@ -94,7 +94,7 @@ export default function ServicesPage() {
       <section className="relative bg-slate-900 py-24">
         <div className="absolute inset-0 overflow-hidden">
           <Image
-            src="https://images.pexels.com/photos/1386484/pexels-photo-1386484.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="/images/R-2.jpg"
             alt="School bus services"
             fill
             className="object-cover opacity-20"

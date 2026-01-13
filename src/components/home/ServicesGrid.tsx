@@ -8,7 +8,7 @@ const services = [
     title: 'Student Transportation',
     description:
       'Cost-effective transportation for public and private schools, with full routing, logistics, and GPS tracking.',
-    image: 'https://images.pexels.com/photos/14044466/pexels-photo-14044466.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/OIP.jpg',
     href: '/services#student',
   },
   {
@@ -16,7 +16,7 @@ const services = [
     title: 'Elderly Services',
     description:
       'Door-to-door mobility assistance helping seniors maintain independence and access medical care.',
-    image: 'https://images.pexels.com/photos/4452019/pexels-photo-4452019.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/R-1.jpg',
     href: '/services#elderly',
   },
   {
@@ -24,7 +24,7 @@ const services = [
     title: 'Medical Transportation',
     description:
       'Non-emergency medical transport available 24/7 across NJ and NY Metro Area.',
-    image: 'https://images.pexels.com/photos/1386484/pexels-photo-1386484.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/R-2.jpg',
     href: '/services#medical',
   },
   {
@@ -32,7 +32,7 @@ const services = [
     title: 'Private Charters',
     description:
       'Motor coach transportation for groups, from local transfers to cross-country trips.',
-    image: 'https://images.pexels.com/photos/14044466/pexels-photo-14044466.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/R.jpg',
     href: '/services#charter',
   },
 ];
